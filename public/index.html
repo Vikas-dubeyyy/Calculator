@@ -1,0 +1,91 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="icon" href="">             <!-- Icon -->
+    <link href="./css/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="z-10 text-white bg-gradient-to-r from-slate-400 to-slate-500 text-center pt-4 pb-4 fixed top-0 left-0 right-0">
+      CALCULATOR
+    </div>
+    <div class="hide-580"><br><br><br><br></div>
+    <div class="hide-580 outline rounded-sm outline-black p-3 text-center bg-slate-400 grid grid-cols-5 gap-4 mx-16 cont-wd">
+      <div class="text-right h-12 text-blue-500 col-span-5 outline rounded-sm outline-black bg-white pt-2 pr-2 key_space"></div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">1</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">2</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">3</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">DEL</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">AC</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">4</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">5</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">6</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">*</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">/</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">7</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">8</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">9</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">+</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">-</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">0</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">.</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key key_equal">=</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">sin</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">cos</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">tan</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">ln x</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">log<sub>n</sub>x</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">x<sup>n</sup></div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key"><sup>n</sup>√x</div>
+    </div>
+    <div class="hide-gt-580"><br><br><br></div>
+    <div class="mb-10 hide-gt-580 outline rounded-sm outline-black p-3 text-center bg-slate-400 grid grid-cols-3 gap-4 mx-6 cont-wd">
+      <div class="text-right h-12 text-blue-500 col-span-3 outline rounded-sm outline-black bg-white pt-2 pr-2 key_space"></div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">x<sup>n</sup></div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">DEL</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">AC</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">1</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">2</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">3</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">4</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">5</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">6</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">7</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">8</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">9</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">0</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">.</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key key_equal">=</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">*</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">/</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">-</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">+</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">sin</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">cos</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">tan</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key">log<sub>n</sub>x</div>
+      <div class="p-1 outline rounded-sm outline-black hover:outline-gray-200 hover:cursor-pointer bg-gray-300 key"><sup>n</sup>√x</div>
+    </div>
+    <div class="p-32 padd-list mb-16 text-sm leading-relaxed tracking-wide">
+      <ul class="list-disc">
+        <li>Numbers and operands appear on the white screen on clicking the values.</li>
+        <li>After writing the operation, click = to evaluate.</li>
+        <li>This calculator can perform one operation at a time. Multiple operations not allowed.</li>
+        <li>This calculator cannot take negative values. ( Eg: <sup>3</sup>√-96 will give error )</li>
+        <li>For finding ln first click operand and then provide the number. ( Eg : ln 456 )</li>
+        <li>For finding sin, cos, tan, first click operand and then provide value in degrees (Radians are not allowed).</li>
+        <li>For finding n<sup>th</sup> root, log<sub>n</sub>x, x<sup>n</sup>, first click on the operand, then provide value and then click on n to give value of n.</li>  
+      </ul>  
+    </div>
+    <div class="text-sm text-white text-center py-4 px-6 sm:px-0 fixed bottom-0 left-0 right-0 bg-gradient-to-r from-slate-400 to-slate-500">
+      <p>Github-id : Vikas-dubeyyy</p>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

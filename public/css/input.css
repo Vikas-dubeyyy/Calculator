@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Add your styles here
+ */
+
+ body{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+@media screen and (min-width: 621px){
+    .cont-wd{
+        @apply mx-auto;
+        width: 469px;
+    }
+}
+@media screen and (max-width: 580px){
+    .hide-580{
+        @apply hidden;
+    }
+    .padd-list{
+        @apply p-16
+    }
+}
+@media screen and (min-width: 580px){
+    .hide-gt-580{
+        @apply hidden;
+    }
+}

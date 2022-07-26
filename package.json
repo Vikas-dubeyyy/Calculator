@@ -1,0 +1,15 @@
+{
+  "name": "tailwindnpminit",
+  "version": "1.0.0",
+  "description": "Tailwind starter template for QSTP",
+  "dependencies": {
+    "tailwindcss": "^3.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "css": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
